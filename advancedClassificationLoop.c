@@ -1,10 +1,9 @@
-# include <stdio.h> 
+
 # include <math.h>
 # include "NumClass.h"
 
-
 int isPalindrome(int n) {
-    int reverse, digit = 0;
+    int reverse = 0, digit = 0;
     int palindromeTemp = n;
 
     while (palindromeTemp != 0)
@@ -24,7 +23,7 @@ int isPalindrome(int n) {
 
 int isArmstrong(int n) {
     int armstrongTemp = n;
-    int LastDigit, sequence, num_of_digits = 0;
+    int LastDigit = 0, sequence = 0, num_of_digits = 0;
 
     while (armstrongTemp != 0) {
         num_of_digits += 1;

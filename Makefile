@@ -1,5 +1,5 @@
 CC = gcc 
-CFLAGS = -Wall
+CFLAGS = -Wall -g 
 
 all: mains maindloop maindrec libclassloops.a
 
