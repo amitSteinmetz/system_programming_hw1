@@ -16,12 +16,8 @@ int isStrong(int n) {
         sum+=factorial;
         strongTemp/=10;
     }
-    if (sum == n) {
-        return 1;
-    }
-    else {
-        return 0;
-    }
+    return (sum == n) 
+     
 }
 
 int isPrime(int n) {

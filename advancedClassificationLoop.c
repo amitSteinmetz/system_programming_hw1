@@ -37,10 +37,6 @@ int isArmstrong(int n) {
         armstrongTemp/=10;
     }
 
-    if (sequence == n) {
-        return 1;
-    }
-    else {
-       return 0;
-    }
+    return (sequence == n) 
+     
 }

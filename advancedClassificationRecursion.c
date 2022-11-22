@@ -9,13 +9,8 @@ int reverseNum(int n, int sum);
 
 int isPalindrome(int n) {
 
-    if (n == reverseNum(n, 0))
-    {
-        return 1;
-    }
-    else {
-        return 0;
-    }
+    return (n == reverseNum(n, 0))
+    
 
 }
 int reverseNum(int n, int sequence)
@@ -41,12 +36,8 @@ int isArmstrong(int n) {
         num_of_digits++;
         temp/=10;
     }
-    if (n == isArmstrongRec(n, num_of_digits)) {
-        return 1;
-    }
-    else {
-        return 0;
-    }
+    return (n == isArmstrongRec(n, num_of_digits)) 
+    
 }
 
 int isArmstrongRec(int n, int num_of_digits) {
