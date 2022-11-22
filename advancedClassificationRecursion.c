@@ -9,7 +9,7 @@ int reverseNum(int n, int sum);
 
 int isPalindrome(int n) {
 
-    return (n == reverseNum(n, 0))
+    return (n == reverseNum(n, 0));
     
 
 }
@@ -36,7 +36,7 @@ int isArmstrong(int n) {
         num_of_digits++;
         temp/=10;
     }
-    return (n == isArmstrongRec(n, num_of_digits)) 
+    return (n == isArmstrongRec(n, num_of_digits)); 
     
 }
 

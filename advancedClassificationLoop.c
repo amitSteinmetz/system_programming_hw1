@@ -13,12 +13,8 @@ int isPalindrome(int n) {
         palindromeTemp/=10;
     }
 
-    if (reverse == n) {
-        return 1;
-    } 
-    else {
-        return 0;
-    }
+    return (reverse == n);
+    
 }
 
 int isArmstrong(int n) {
@@ -37,6 +33,6 @@ int isArmstrong(int n) {
         armstrongTemp/=10;
     }
 
-    return (sequence == n) 
+    return (sequence == n);
      
 }

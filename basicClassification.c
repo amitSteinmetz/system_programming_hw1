@@ -16,7 +16,7 @@ int isStrong(int n) {
         sum+=factorial;
         strongTemp/=10;
     }
-    return (sum == n) 
+    return (sum == n);
      
 }
 
